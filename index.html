@@ -196,8 +196,10 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
-    duration: 1000,   // animation duration (ms)
-    once: true        // only animate once per element
+  duration: 1200,   // speed of animation
+  once: false,      // re-animate when scrolling up/down
+  mirror: true,     // animate out while scrolling past
+  offset: 120       // distance from viewport before triggering
   });
 </script>
 </body>
