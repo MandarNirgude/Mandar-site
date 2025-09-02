@@ -1,1 +1,5 @@
-
+mkdir images
+mv tesla-bg.jpg images/
+git add .
+git commit -m "added images folder"
+git push
